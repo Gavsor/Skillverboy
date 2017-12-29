@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ControladorAraña.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ControladorAraña.cs" Line="44" Column="25" />
+      <File FileName="Assets\BarraEnemigaIA.cs" Line="1" Column="1" />
+      <File FileName="Assets\GenerarObjeto.cs" Line="1" Column="1" />
+      <File FileName="Assets\GenerarMisil.cs" Line="1" Column="1" />
+      <File FileName="Assets\FuerzaBala.cs" Line="1" Column="1" />
+      <File FileName="Assets\GenerarMisilComoHijo.cs" Line="1" Column="1" />
+      <File FileName="Assets\MisilesInteligentes.cs" Line="160" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

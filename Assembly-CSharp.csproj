@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{4329E313-6569-2CEA-F6F8-C202897C6812}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_7;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ActivarBarra.cs" />
+     <Compile Include="Assets\ActivarDisparoAmigo.cs" />
+     <Compile Include="Assets\ActivarElectricidad.cs" />
+     <Compile Include="Assets\AvanzayRetrocede.cs" />
+     <Compile Include="Assets\AvisoYDispara.cs" />
+     <Compile Include="Assets\BarraEnemigaIA.cs" />
+     <Compile Include="Assets\BarrasActivar.cs" />
+     <Compile Include="Assets\CamaleonSalto.cs" />
+     <Compile Include="Assets\CambiaVelocidad.cs" />
+     <Compile Include="Assets\CambioPersonajeLibre.cs" />
+     <Compile Include="Assets\CambioV_Zigzag.cs" />
+     <Compile Include="Assets\CameraFollowLibre.cs" />
+     <Compile Include="Assets\ChangeScene.cs" />
+     <Compile Include="Assets\ClickSound.cs" />
+     <Compile Include="Assets\ColliderPlataforma.cs" />
+     <Compile Include="Assets\DisparandoAmigo.cs" />
+     <Compile Include="Assets\DisparoBalasEnemigo.cs" />
+     <Compile Include="Assets\DobleSalto.cs" />
+     <Compile Include="Assets\Empujar.cs" />
+     <Compile Include="Assets\EnemigoActivado.cs" />
+     <Compile Include="Assets\EnemigoRebota_N1.cs" />
+     <Compile Include="Assets\FlappyControlador.cs" />
+     <Compile Include="Assets\FlappyMovimiento.cs" />
+     <Compile Include="Assets\FuerzaBala.cs" />
+     <Compile Include="Assets\GenerarMisil.cs" />
+     <Compile Include="Assets\GenerarMisilComoHijo.cs" />
+     <Compile Include="Assets\GenerarObjeto.cs" />
+     <Compile Include="Assets\ItemActivar.cs" />
+     <Compile Include="Assets\LaserActivar.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
+     <Compile Include="Assets\MisilesInteligentes.cs" />
+     <Compile Include="Assets\MuerePortal.cs" />
+     <Compile Include="Assets\N_movernave.cs" />
+     <Compile Include="Assets\PeligroAviso.cs" />
+     <Compile Include="Assets\PersonajeBolaControlador.cs" />
+     <Compile Include="Assets\PisoCae.cs" />
+     <Compile Include="Assets\PlataformaAparece.cs" />
+     <Compile Include="Assets\PlataformaDetecta.cs" />
+     <Compile Include="Assets\RompeSuelo.cs" />
+     <Compile Include="Assets\SaltoAlto.cs" />
+     <Compile Include="Assets\SaludEnemigoFinal.cs" />
+     <Compile Include="Assets\Scripts\ActivarGrupo.cs" />
+     <Compile Include="Assets\Scripts\ActivarLuz.cs" />
+     <Compile Include="Assets\Scripts\ArmaScript.cs" />
+     <Compile Include="Assets\Scripts\ArmaVeloz\ArmamentoScript.cs" />
+     <Compile Include="Assets\Scripts\ArmaVeloz\ControladorAndroide.cs" />
+     <Compile Include="Assets\Scripts\ArmaVeloz\DisparandoScript.cs" />
+     <Compile Include="Assets\Scripts\ArmaVeloz\Movimiento.cs" />
+     <Compile Include="Assets\Scripts\ArmaVeloz\NubeScript.cs" />
+     <Compile Include="Assets\Scripts\ArmaVeloz\SaludVeloz.cs" />
+     <Compile Include="Assets\Scripts\AspectUtility.cs" />
+     <Compile Include="Assets\Scripts\Camaleon.cs" />
+     <Compile Include="Assets\Scripts\CambiarVelocidadHumano.cs" />
+     <Compile Include="Assets\Scripts\CambioPersonaje.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\ControladorAraña.cs" />
+     <Compile Include="Assets\Scripts\ControladorPersonaje.cs" />
+     <Compile Include="Assets\Scripts\DeathMenu.cs" />
+     <Compile Include="Assets\Scripts\Destructor.cs" />
+     <Compile Include="Assets\Scripts\DisparoScript.cs" />
+     <Compile Include="Assets\Scripts\EfectoItem.cs" />
+     <Compile Include="Assets\Scripts\EfectosEspecialesScript.cs" />
+     <Compile Include="Assets\Scripts\EnemigoDisparo.cs" />
+     <Compile Include="Assets\Scripts\EnemigoNubeScript.cs" />
+     <Compile Include="Assets\Scripts\EstadoJuego.cs" />
+     <Compile Include="Assets\Scripts\Generador.cs" />
+     <Compile Include="Assets\Scripts\HumanoSlice.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\Loading.cs" />
+     <Compile Include="Assets\Scripts\Materiales\BoxBlur.cs" />
+     <Compile Include="Assets\Scripts\Materiales\CustomImageEffect.cs" />
+     <Compile Include="Assets\Scripts\MovilFlechasScript.cs" />
+     <Compile Include="Assets\Scripts\MovimientoScript.cs" />
+     <Compile Include="Assets\Scripts\Mundo 4\PartColl.cs" />
+     <Compile Include="Assets\Scripts\Murcielago\BatRadarScript.cs" />
+     <Compile Include="Assets\Scripts\Murcielago\MurcielagoIA.cs" />
+     <Compile Include="Assets\Scripts\MurcielagoPisado.cs" />
+     <Compile Include="Assets\Scripts\NotificationCenter.cs" />
+     <Compile Include="Assets\Scripts\Oruga.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\PlataformaMovil.cs" />
+     <Compile Include="Assets\Scripts\Puntuacion.cs" />
+     <Compile Include="Assets\Scripts\Raycast.cs" />
+     <Compile Include="Assets\Scripts\SaludAranha.cs" />
+     <Compile Include="Assets\Scripts\SaludHumano.cs" />
+     <Compile Include="Assets\Scripts\SaludScript.cs" />
+     <Compile Include="Assets\Scripts\Score\DeathMenuu.cs" />
+     <Compile Include="Assets\Scripts\Score\Score.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\ScoreMuerte.cs" />
+     <Compile Include="Assets\Scripts\Scroll.cs" />
+     <Compile Include="Assets\Scripts\ScrollRectSnap_CS.cs" />
+     <Compile Include="Assets\Scripts\ScrollSnapRect.cs" />
+     <Compile Include="Assets\Scripts\SeguirAndroid.cs" />
+     <Compile Include="Assets\Scripts\SeguirPersonaje.cs" />
+     <Compile Include="Assets\Scripts\SliderMenu.cs" />
+     <Compile Include="Assets\Scripts\Teleport.cs" />
+     <Compile Include="Assets\Scripts\camefollow2.cs" />
+     <Compile Include="Assets\Scripts\fading.cs" />
+     <Compile Include="Assets\Scripts\movent.cs" />
+     <Compile Include="Assets\Scripts\test.cs" />
+     <Compile Include="Assets\Scripts\tiempoEnergia.cs" />
+     <Compile Include="Assets\SonidoBoton.cs" />
+     <Compile Include="Assets\UIManager.cs" />
+     <Compile Include="Assets\VidaEnemigoBarra.cs" />
+     <Compile Include="Assets\VoltearNave.cs" />
+     <Compile Include="Assets\orbit.cs" />
+     <None Include="Assets\Scripts\Materiales\SimpleBoxBlur.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.7/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
